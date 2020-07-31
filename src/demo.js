@@ -290,7 +290,7 @@ function NewJobRequest(props) {
         onClose={handleClose}
         aria-labelledby="form-dialog-title"
       >
-        <DialogTitle id="form-dialog-title">New Job Request Form</DialogTitle>
+        <DialogTitle id="form-dialog-title">New Form</DialogTitle>
         <DialogContent>
           <ClientCode />
           <GroupName />
