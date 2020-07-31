@@ -350,7 +350,7 @@ export default function JobRequest() {
   return (
     <div style={{ maxWidth: "100%" }}>
       <Button variant="outlined" color="primary" onClick={openModal}>
-        Open form dialog
+        Open dialog
       </Button>
       <NewJobRequest open={newOpen} setOpen={setNewOpen} />
     </div>
